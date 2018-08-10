@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: users
-          image: anthonyamanse/kitura-users:1.0
+          image: manifestlife/kitura-users:1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080

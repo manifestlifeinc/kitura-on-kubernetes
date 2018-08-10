@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: leaderboard
-          image: anthonyamanse/kitura-leaderboard:1.0
+          image: manifestlife/kitura-leaderboard:1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
